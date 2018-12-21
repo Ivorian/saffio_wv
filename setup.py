@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name="saffio_wv",
-    version="0.1.2",
+    version="0.1.3",
     description="wv",
     url="",
     author="Ivoria Nairov",
