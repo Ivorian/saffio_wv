@@ -8,7 +8,7 @@ class W2V(torch.nn.Module):
             num_embeddings=tok_num, embedding_dim=code_num
         )
         self.fc = torch.nn.Sequential(
-        torch.nn.Linear(code_num, code_num, bias=False)
+        torch.nn.Linear(code_num, tok_num, bias=False)
         )
 
         self.lo = torch.nn.NLLLoss()
